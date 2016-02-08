@@ -13,8 +13,8 @@ fastest to slowest, there will be N groups — no car ever gets stuck behind a s
 To solve this problem we will generate N cars each having a speed chosen at random from 0 to 1. When a Car, A, is generated
 its speed is checked against the previously generated car A-1. If A.speed is > A-1.speed then the car will be added into the
 same list as car A. If A.speed <= A-1.speed then the list containing car A-1 will be added to a list of lists and
-car A will be placed in a new empty list. This process will be repeated until N cars have been generated.
-
+car A will be placed in a new empty list. This process will be repeated until N cars have been generated. The number of
+nested lists is then counted to determine the total number of groups or bunches of cars.
 
 ## Results
 The simulation was run 100 times for N cars where N ranges from 1 to 100000 by 100. The result can be seen below where the
