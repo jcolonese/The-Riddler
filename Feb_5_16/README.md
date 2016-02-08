@@ -17,6 +17,8 @@ car A will be placed in a new empty list. This process will be repeated until N 
 
 
 ## Results
-The simulation was run 100 times for N cars where N ranges from 1 to 100000 by 100. The result can be seen below.
+The simulation was run 100 times for N cars where N ranges from 1 to 100000 by 100. The result can be seen below where the
+red area is +- 1 standard deviation.
 
-[alt text](https://github.com/rd11490/The-Riddler-Traffic/blob/master/Feb_5_16/Results.png "Simulation Results")
+
+# ![alt text](https://github.com/rd11490/The-Riddler-Traffic/blob/master/Feb_5_16/Results.png "Simulation Results")
