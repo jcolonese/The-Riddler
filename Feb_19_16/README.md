@@ -14,10 +14,11 @@ high chance of boarding next than the person with the worst ticket. If the passe
 randomly chose a new seat from the best available seats left (ex. If the passenger's seat is in First Class and it is
 taken they will randomly chose a new seat in First Class, if First Class is full, they will move to the next section on
 their preference list). Each passenger also has a preference list that dictates which section they will go to if their
-section is full (2 types of preferences:
-First Class Good -> First Class Bad -> Business Class Good -> etc
+section is full.
+The two types of preferences are:
+Section Based: First Class Good -> First Class Bad -> Business Class Good -> etc
 or
-First Class Good -> Business Class Good  -> First Class Bad - > etc
+Seat Quality Based: First Class Good -> Business Class Good  -> First Class Bad - > etc
 
 ![Plane Layout](https://github.com/rd11490/The-Riddler-Traffic/blob/master/Feb_19_16/Plane_Image.jpg)
 
