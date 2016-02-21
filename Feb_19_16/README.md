@@ -17,11 +17,15 @@ their preference list). Each passenger also has a preference list that dictates 
 section is full.
 The two types of preferences are:
 
+
 Section Based: First Class Good -> First Class Bad -> Business Class Good -> etc
+
 
 or
 
+
 Seat Quality Based: First Class Good -> Business Class Good  -> First Class Bad - > etc
+
 
 
 ![Plane Layout](https://github.com/rd11490/The-Riddler-Traffic/blob/master/Feb_19_16/Plane_Image.jpg)
