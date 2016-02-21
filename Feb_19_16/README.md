@@ -29,4 +29,4 @@ animation below the left bar represents the average number of passengers in the 
 upper bound of the 95% confidence interval.
 
 
-![Results](https://github.com/rd11490/The-Riddler-Traffic/blob/master/Feb_19_16/results.gif)
+![Results](https://github.com/rd11490/The-Riddler/blob/master/Feb_19_16/result.gif)
