@@ -28,9 +28,11 @@ Seat Quality Based: First Class Good -> Business Class Good  -> First Class Bad 
 
 
 ## Results
-The simulation was run 1000 times and the average number of people in the wrong seat in each section was plotted. In the
-animation below the left bar represents the average number of passengers in the wrong seat and right bar represents the
-upper bound of the 95% confidence interval.
+The simulation was run 1000 times and the average number of people in the wrong seat in each section was plotted. The
+first passenger to board wasn't happy that he was in the very back of the line and in one of the worst seats in the plane
+so he skipped the line and took a seat in first class. The animation below shows the percentage of each section that
+is filled with people in the wrong seat as the passengers board. The first bar represents the average over 1000 simulations
+ and the second bar represents the upper bound of the 95% confidence interval.
 
 
 ![Results](https://github.com/rd11490/The-Riddler/blob/master/Feb_19_16/result.gif)
