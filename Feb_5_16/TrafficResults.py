@@ -5,7 +5,7 @@ from scipy.optimize import curve_fit
 
 
 def func(x, a, b, c):
-    return a * np.log(x)+c
+    return a * np.log(b*x)+c
 
 
 frame = pd.read_csv('riddler_data.csv', index_col=0)
