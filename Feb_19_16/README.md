@@ -8,14 +8,14 @@ passenger to board, finds your seat unoccupied?
 
 ## Solution - Extended Problem
 To extend this problem we increase the number of seats on the plane from 100 to 374 and designate seats to separate
-sections mimicking the layout of a Boeing 747-400.
-The passengers board the plane in a weighted random order in which the person with the best ticket has a significantly
-high chance of boarding next than the person with the worst ticket. If the passenger's seat is taken they will
-randomly chose a new seat from the best available seats left (ex. If the passenger's seat is in First Class and it is
-taken they will randomly chose a new seat in First Class, if First Class is full, they will move to the next section on
-their preference list). Each passenger also has a preference list that dictates which section they will go to if their
-section is full.
-The two types of preferences are:
+sections mimicking the layout of a Boeing 747-400. The standard First Class, Business Class, Economy Plus, and Economy
+sections are included. These sections are also further broken down into Good, Middle, Poor and Bad seats based on ratings
+from trip adviser. The passengers board the plane in a weighted random order in which the person with the best ticket
+has a significantly high chance of boarding next than the person with the worst ticket. If the passenger's seat is taken
+they will randomly chose a new seat from the best available seats left (ex. If the passenger's seat is in First Class
+and it is taken they will randomly chose a new seat in First Class, if First Class is full, they will move to the next
+section on their preference list). Each passenger also has a preference list that dictates which section they will go to
+if their section is full. The two types of preferences are:
 
 Section Based: First Class Good -> First Class Bad -> Business Class Good -> etc
 
