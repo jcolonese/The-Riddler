@@ -22,4 +22,4 @@ The simulation was run 10000 times for 1000 households each starting with 100$. 
 red area is +- 1 standard deviation.
 
 
-# ![alt text](https://github.com/rd11490/The-Riddler-Traffic/blob/master/Feb_5_16/Results.png "Simulation Results")
+# ![alt text](https://github.com/rd11490/The-Riddler/blob/master/TownOfThieves/figure_1.png "Simulation Results")
