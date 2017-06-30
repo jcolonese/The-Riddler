@@ -34,8 +34,9 @@ class TownOfThieves:
 
     def simulate(self):
         while self.year < self.maxYears:
+            if (self.year > 0):
+                self.households = [x + 100 for x in self.households]
             self.robHouses()
-            #self.printStatus()
             self.year += 1
 
     def robHouses(self):
