@@ -40,7 +40,7 @@ class TownOfThieves:
             self.year += 1
 
     def robHouses(self):
-        self.lottoOrder = self.lottery()
+        #self.lottoOrder = self.lottery()
         for l in self.lottoOrder:
             self.robHouse(l)
 
