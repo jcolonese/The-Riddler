@@ -19,7 +19,7 @@ for length in seriesLength:
         prob = combs * (math.pow(winProb, k)) * math.pow(1 - winProb, g - k)
         # print("{} Wins In {} Games - Prob: {}".format(k, g, prob))
         seriesProb += prob
-    money = prize - length * discount
+    money = prize - (length//2+1) * discount
     expectedValue = money * seriesProb
     frame = frame.append(pd.Series([length, k, money, seriesProb, expectedValue]), ignore_index=True)
 
